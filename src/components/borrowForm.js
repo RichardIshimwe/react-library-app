@@ -59,16 +59,16 @@ function BorrowForm(props) {
       <label>Enter your name:
       <input 
         type="text" 
-        name="username" 
-        value={inputs.username || ""} 
+        name="uuid" 
+        value={inputs.uuid || ""} 
         onChange={handleChange}
       />
       </label>
       <label>Enter your age:
         <input 
-          type="number" 
-          name="age" 
-          value={inputs.age || ""} 
+          type="text" 
+          name="isbn" 
+          value={inputs.isbn || ""} 
           onChange={handleChange}
         />
         </label>
