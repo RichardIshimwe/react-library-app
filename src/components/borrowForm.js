@@ -56,7 +56,7 @@ function BorrowForm(props) {
         <button className='close-btn' onClick={() =>{props.setTrigger(false)}}>close</button>
         <center><h3>Enter your library id!</h3></center>
         <form onSubmit={handleSubmit}>
-      <label>Enter your name:
+      <label>Enter your user id:
       <input 
         type="text" 
         name="uuid" 
@@ -64,7 +64,7 @@ function BorrowForm(props) {
         onChange={handleChange}
       />
       </label>
-      <label>Enter your age:
+      <label>Enter book number:
         <input 
           type="text" 
           name="isbn" 
